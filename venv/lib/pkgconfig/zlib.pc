@@ -1,0 +1,13 @@
+prefix=/Users/marreejachaak/Desktop/untitled folder/venv
+exec_prefix=/Users/marreejachaak/Desktop/untitled folder/venv
+libdir=/Users/marreejachaak/Desktop/untitled folder/venv/lib
+sharedlibdir=/Users/marreejachaak/Desktop/untitled folder/venv/lib
+includedir=/Users/marreejachaak/Desktop/untitled folder/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
